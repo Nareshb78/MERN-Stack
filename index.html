@@ -41,11 +41,11 @@
         <li>List-5</li>
     </ol>
     <hr>
-    <h1 style="text-align: center;">Subscript and Superscript</h1>
+    <h1>Subscript and Superscript</h1>
     <p>H<sub>2</sub>O</p>
     <p>2<sup>3</sup></p>
     <hr>
-    <h1 style="text-align: center;">Tables</h1>
+    <h1>Tables</h1>
     <table>
         <thead>
             <tr>
@@ -160,9 +160,46 @@
         
         </tbody>
     </table>
+    <br>
+    <hr>
+    <h1 >Input</h1>
+    <input type="email">
+    <input type="datetime-local">
+    <input type="submit" value="Login">
+    <hr>
+
+    <h1>Form</h1>
+    <div class="center">
+        <form action="./contact.html" method="get">
+            <label for="firstName">Name</label>
+        <input style="display: inline;" type="text" placeholder="First Name" name="firstName">
+        <input type="text" placeholder="Last Name">
+        <input type="password" placeholder="Password">
+        <input type="password" placeholder="Confirm Password">
+        <input type="number" placeholder="Contact number">
+        <button type="submit">Sign Up</button>
+    </form>
+    </div>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/269OsrzG3Ew?si=yMUk79BIrWMeMx9u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <style>
         table, th, td {
             border: 1px solid;
+        }
+        h1{
+            text-align: center;
+        }
+        input{
+            display: block;
+            margin: 10px;
+        }
+        button{
+            margin: 10px;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+            justify-items: center;
         }
     </style>
 </body>
